@@ -2,7 +2,7 @@
   --vermelho: #e50914;
   --preta: #141414;
 }
-
+/*conteúdo base*/
 * {
   font-family: "Ubuntu", sans-serif;
   margin: 0;
@@ -12,6 +12,7 @@
 
 body {
   background-color: var(--preta);
+  color: antiquewhite;
 }
 
 .header-container {
@@ -36,4 +37,67 @@ header nav a {
 
 header nav a:hover {
   color: #fff;
+}
+
+/*conteudo principal*/
+
+#filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("/img/ultimato.jpg");
+  height: 600px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-left: 05%;
+  margin-right: 05%;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#filme-principal h3 {
+  margin-bottom: 100px;
+}
+
+#filme-principal h4,
+#filme-principal p {
+  margin-top: 10px;
+  font-size: large;
+  max-width: 50%;
+  color: white;
+}
+
+#filme-principal h4 {
+  color: antiquewhite;
+}
+
+#section-button {
+  margin-top: 03%;
+}
+
+.title-film {
+  font-size: 40px;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 50%);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: small;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.button:hover {
+  background-color: rgb(3, 1, 1);
+}
+
+.button i {
+  margin-right: 8px;
 }
