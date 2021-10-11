@@ -21,9 +21,8 @@ body {
   margin-left: 20px;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  width: 90%;
-  top: 0;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .header-container .logo {
