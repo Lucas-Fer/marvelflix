@@ -17,10 +17,13 @@ body {
 
 .header-container {
   display: flex;
+  padding-top: 10px;
+  margin-left: 20px;
   justify-content: space-between;
   align-items: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  position: fixed;
+  width: 90%;
+  top: 0;
 }
 
 .header-container .logo {
@@ -51,7 +54,7 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 40px;
+  margin-top: 10%;
   margin-left: 05%;
   margin-right: 05%;
   padding: 15px;
