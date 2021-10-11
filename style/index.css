@@ -12,6 +12,7 @@
 
 body {
   background-color: var(--preta);
+  font-family: Arial, Times, sans-serif;
   color: antiquewhite;
 }
 
@@ -72,6 +73,7 @@ header nav a:hover {
   margin-top: 10px;
   font-size: large;
   max-width: 50%;
+  text-align: justify;
   color: white;
 }
 
@@ -118,4 +120,9 @@ header nav a:hover {
 .title-carrosel {
   text-align: center;
   margin: 40px;
+}
+
+.carrosel img {
+  border: 1px solid black;
+  border-radius: 10%;
 }

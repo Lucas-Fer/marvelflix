@@ -3,4 +3,24 @@
     display: flex;
     flex-direction: column;
   }
+
+  #filme-principal {
+    margin-top: 200px;
+    height: 700px;
+  }
+  #filme-principal p {
+    max-width: 100%;
+    text-align: justify;
+  }
+  .button {
+    margin-top: 5px;
+    width: 190px;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+
+  .carrosel img {
+    height: 600px;
+    width: 400px;
+  }
 }
